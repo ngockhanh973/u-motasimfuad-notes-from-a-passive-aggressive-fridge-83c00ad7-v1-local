@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const line =
-  "I have officially adopted the peas. They moved into my freezer in March and have fused into one solid block. We are attached.";
+  "I have officially adopted the peas. They have lived in my freezer since March and fused into a single solid block. We are attached.";
 
 const length = [...line].length;
 if (length < 1 || length > 200) {
